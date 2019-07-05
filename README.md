@@ -14,6 +14,8 @@ This small tool will help you to increase your blog view traffic with Differnet 
 
 # Tested on kali Linux
 
+works only on Linux
+
 # ! Installation !
 
 Linux
