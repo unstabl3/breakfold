@@ -58,6 +58,8 @@ If you are using both python version on single machine use pip3 for python3
 
 https://twitter.com/chaskar_shubham
 
+This is in beta version and support for this is minimal.
+
 # Disclaimer
 
 Author will not take any responsibility of your activity using this tool.
