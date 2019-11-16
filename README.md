@@ -65,6 +65,9 @@ This is in beta version and support for this is minimal.
 Author will not take any responsibility of your activity using this tool.
 For Educational purpose only.
 
+# Credits
+@vaibhav yadav for suggesting the name
+
 # License
 
 MIT License
