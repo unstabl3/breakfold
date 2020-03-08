@@ -30,9 +30,12 @@ Now open tor configuration file it is usually located in /etc/tor/torrc and unco
 
 Save the file and exit.
 
-`service tor restart`
 
 `pip install stem`
+
+`pip install pysocks`
+
+`service tor restart`
 
 If you are using both python version on single machine use pip3 for python3
 
