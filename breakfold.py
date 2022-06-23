@@ -37,7 +37,7 @@ print("""\033[91m
 				By chaskar_shubham\033[00m
 """)
 
-#tor_password = input("\033[92m Enter your tor password: \033[00m")
+tor_password = input("\033[92m Enter your tor password: \033[00m")
 
 address = input("\033[92m Enter blog address:  \033[00m")
 
@@ -50,7 +50,7 @@ def renew_connection():
 
 	with Controller.from_port(address="127.0.0.1", port = 9051) as controller:
 
-		controller.authenticate(password="")   #password can be found in torrc file(HashedControlPassword)
+		controller.authenticate(password=tor_password)   #password can be found in torrc file(HashedControlPassword)
 
 		controller.signal(Signal.NEWNYM)
 
