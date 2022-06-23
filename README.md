@@ -12,7 +12,7 @@ This small tool will help you to increase your blog view traffic with Differnet 
 2) stem library
 3) Python3
 
-# Tested on kali Linux
+# Tested on kali Linux, Pop OS
 
 works only on Linux
 
@@ -22,11 +22,15 @@ Linux
 
 `apt-get install tor`
 
-Now open tor configuration file it is usually located in /etc/tor/torrc and uncomment following lines.
+Set your Password for Tor
+
+`tor --hash-password "ThePassCode"`. It will give a hashcode for the string "ThePassCode", Copy the Hashcode.
+
+Now open tor configuration file it is usually located in /etc/tor/torrc and uncomment following lines. And edit the `HashedControlPassword 16:` attribute.
 
 `ControlPort 9051`
 
-`HashedControlPassword "your password"`
+`HashedControlPassword 16:<Put the previously copied hashcode here>`
 
 Save the file and exit.
 
@@ -49,11 +53,11 @@ If you are using both python version on single machine use pip3 for python3
 
 `python3 breakfold.py`
 
-`enter your tor password from torrc file`
+`enter the tor password what you set earlier (for example: "ThePassCode")`
 
-`enter blog address with protocol`
+`enter blog address with protocol (for example: https://abstractblog.blogspot.com/paper1.html)`
 
-`enter number of views you want`
+`enter number of views you want (for example: 5)`
 
 `Now blog will be visited with different ip and User-Agent`
 
