@@ -1,0 +1,25 @@
+{
+  "name": "breakfold",
+  "version": "1.0.0",
+  "description": "An example project to demonstrate package.json with dev dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unstabl3/breakfold/breakfold.git"
+  },
+  "keywords": [
+    "breakfold",
+    "breakfold12"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
