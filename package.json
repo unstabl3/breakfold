@@ -20,6 +20,6 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "next": "^13.4.1"
+    "next": "^14.2.3"
   }
 }
