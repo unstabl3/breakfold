@@ -17,7 +17,8 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "dicer":"^0.2.5"
   },
   "devDependencies": {
     "next": "^13.4.1"
