@@ -21,6 +21,6 @@
     "dicer":"^0.2.5"
   },
   "devDependencies": {
-    "next": "^13.4.1"
+    "next": "^14.2.3"
   }
 }
