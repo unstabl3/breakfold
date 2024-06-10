@@ -1,2 +1,2 @@
-requests==2.19.1
-apache-airflow==1.8.1
+requests==2.32.2
+apache-airflow==2.9.1
